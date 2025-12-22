@@ -1,4 +1,4 @@
-print("hello word")
+print("hello world !")
 # different way of printing statement
 
 a=10
