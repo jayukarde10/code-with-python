@@ -1,2 +1,3 @@
-print("hello word");
+print("hello word")
+print("done seting git ")
 
