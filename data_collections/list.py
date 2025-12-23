@@ -35,3 +35,17 @@ list[2:4]=["apple","banana"] #change 3rd and 4th item
 list[5:3]=["Jay"] #insert item at index 5
 print("Modified List:",list)
 
+# Insert Items
+# To insert a new list item, without replacing any of the existing values, we can use the insert() method.
+
+list.insert(5,"jay") #insert item at index 5
+print("After Insertion:",list)
+
+list.append("hello") #append item at end cant specify index
+print("After Append:",list)
+
+list.extend(["welcome",123]) #add multiple items at end
+print("After Extend:",list)
+
+
+
