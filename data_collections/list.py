@@ -18,3 +18,20 @@ print(list[1:3]) #items from index 1 to 2
 print(list[2:5])
 #The search will start at index 2 (included) and end at index 5 (not included).
 print(list[:5])#items from beginning to index 4
+
+print(list[-4:-2]) #items from index -4 to -3
+#The search will start at index -4 (included) and end at index -2 (not included).
+
+if "apple" in list:
+    print(f"yess it present in position {list.index("apple")}") #check if item present in list
+
+for index, value in enumerate(list):
+    print(index, value)
+
+list[1]="banana" #change 2nd item
+print("Updated List:",list)
+
+list[2:4]=["apple","banana"] #change 3rd and 4th item
+list[5:3]=["Jay"] #insert item at index 5
+print("Modified List:",list)
+
