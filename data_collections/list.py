@@ -46,6 +46,29 @@ print("After Append:",list)
 
 list.extend(["welcome",123]) #add multiple items at end
 print("After Extend:",list)
+#or
+thislist=[1,2,3]
+anotherlist=[4,5,6]
+thislist.extend(anotherlist)
+print("Extended List:",thislist)
 
+#property of extend
+thislist = ["apple", "banana", "cherry"]
+thistuple = ("kiwi", "orange")
+thislist.extend(thistuple)
+print(thislist)
 
+#remove item
 
+list.remove(123) #remove specific item
+print("After Remove:",list)
+
+list.pop(1) #remove item at specific index
+print("After Pop:",list)
+
+del list[0] #delete item at index 0
+
+#delite entire list
+del list
+list.clear() #clear all items in list
+print("After Clear:",list)
