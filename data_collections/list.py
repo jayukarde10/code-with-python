@@ -70,5 +70,16 @@ del list[0] #delete item at index 0
 
 #delite entire list
 del list
+list=[]
+list.append("apple")
 list.clear() #clear all items in list
 print("After Clear:",list)
+
+list.extend(["apple","banana","cherry","date","fig","grape"])
+#loops in list
+for item in list:
+    print(item)
+
+for i in range(len(list)):
+    print(list[i]) #doing dame
+
