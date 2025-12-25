@@ -83,3 +83,31 @@ for item in list:
 for i in range(len(list)):
     print(list[i]) #doing dame
 
+list.append("jay")
+
+
+#comprehension
+
+nlist=[x for x in list if "jay" in x]
+print("Comprehension List:",nlist)
+
+#short
+
+jlist=["jay","apple","banana","jay"]
+jlist.sort()
+print("Sorted List:",jlist)
+alist=[5,3,8,1,2]
+alist.sort()
+print("Sorted Numeric List:",alist)
+
+#decending
+alist.sort(reverse=True)
+print("Decending Sorted List:",alist)
+
+#custom sort
+def func(n):
+    return abs(n-5)
+
+alist.sort(key=func)
+print("Custom Sorted List:",alist)
+
