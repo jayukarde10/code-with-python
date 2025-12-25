@@ -111,3 +111,31 @@ def func(n):
 alist.sort(key=func)
 print("Custom Sorted List:",alist)
 
+#reverse
+alist.reverse()
+print("Reversed List:",alist)
+
+print("jlist",jlist)
+print("alist",alist)
+#copy list
+mylist = jlist.copy()
+print("Copied List:",mylist)
+
+# mylist = list(jlist)
+# print("Copied List using list():",mylist)
+
+
+#join
+ylist=jlist+alist
+print("Joined List:",ylist)
+
+#another method 
+list1 = ["a", "b" , "c"]
+list2 = [1, 2, 3]
+
+for x in list2:
+  list1.append(x)
+
+print(list1)
+
+
