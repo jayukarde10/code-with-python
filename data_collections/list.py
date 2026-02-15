@@ -25,7 +25,7 @@ print(list[-4:-2]) #items from index -4 to -3
 if "apple" in list:
     print(f"yess it present in position {list.index("apple")}") #check if item present in list
 
-for index, value in enumerate(list):
+for index, value in enumerate(list):#enumerate() function adds a counter to an iterable and returns it in a form of enumerating object. This enumerated object can then be used directly in for loops or be converted into a list of tuples using the list() method.
     print(index, value)
 
 list[1]="banana" #change 2nd item
@@ -94,7 +94,7 @@ print("Comprehension List:",nlist)
 #short
 
 jlist=["jay","apple","banana","jay"]
-jlist.sort()
+jlist.sort()#sort list in ascending order
 print("Sorted List:",jlist)
 alist=[5,3,8,1,2]
 alist.sort()
