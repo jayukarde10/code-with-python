@@ -39,7 +39,7 @@
 # reverse()	Reverses the order of the list
 # sort()	Sorts the list
 
-
+#sum(list)
 
 
 #list

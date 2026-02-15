@@ -1,5 +1,4 @@
-name ="jay ukarde"
-print(name[0:2])
-print(len(name))
-print(name.replace("jay","j"))          
-print(name.count("u"))
+nums = [10, 20, 30]
+
+for i in range(0,len(nums)):
+    print(i, nums[i])
