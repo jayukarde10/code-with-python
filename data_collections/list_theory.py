@@ -3,6 +3,9 @@
 # Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
 # Dictionary is a collection which is ordered** and changeable. No duplicate members.
 
+#ordered means The items are kept in the same order they were added.
+#changeble(mutable)
+
 #LIST methods 
 #change ex. list[index]=value
 #append,extend,insert index  position.
