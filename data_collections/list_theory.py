@@ -1,7 +1,13 @@
 # List is a collection which is ordered and changeable. Allows duplicate members.
 # Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
-# Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
-# Dictionary is a collection which is ordered** and changeable. No duplicate members.
+# Set is a collection which is unordered, changeable*, and unindexed. No duplicate members.
+# Dictionary is a collection which is ordered** and changeable. No duplicate keys.
+
+
+# List → Ordered, Mutable, Indexed, Allows Duplicates  
+# Tuple → Ordered, Immutable, Indexed, Allows Duplicates  
+# Set → Unordered, Mutable, Unindexed, No Duplicates  
+# Dictionary → Ordered (3.7+), Mutable, Key-Value Pair, No Duplicate Keys
 
 #ordered means The items are kept in the same order they were added.
 #changeble(mutable)

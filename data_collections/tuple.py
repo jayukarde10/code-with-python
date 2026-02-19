@@ -2,6 +2,8 @@
 #unchangeble(immutable)
 
 tup =("this","is",1,"tup")
+tup1 = 1,5,6
+print(type(tup1))
 print(tup)
 print(tup[0])
 

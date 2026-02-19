@@ -1,11 +1,7 @@
-list=[]
-t=int(input("how many insertion"))
-for i in range(0,t):
-     l=input("insert in list ")
-     list.append(l)
-list.sort()
-print(list)  
-list.sort(reverse=True)
-print(list)
-list.clear()
-print(list)
+tupple =(1,2,3,1)
+print(tupple.count(1))
+print(tupple.index(2))
+
+tup =1,2,3
+print(type(tup))
+print(type(tupple))
