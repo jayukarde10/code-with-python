@@ -63,6 +63,7 @@
 # print("out of loop")    
 
 
+# note : you can use break/continue in only if-else. if if else is in any loop u can use
 #continue
 #skip current iteration and move to next iteration
 
