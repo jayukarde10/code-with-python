@@ -7,6 +7,10 @@
 
 #for i in range(start,stop,step) # step mean how much get incrase ex if (0,10,2) it increment by 2 ,+=2
 # for i in range(10,0,-1):#10 to 1
+
+#pass use to create null for loop to do nothing
+#for i in range(5):
+    # pass
     
 
 # l=[1,2,3,4,5,6]
