@@ -24,6 +24,12 @@ dict["name"]="JAY"
 dict["surname"]="ukarde" #add new key value pair
 print(dict)
 
+#to delete 
+del dict["age"] 
+dict.pop("city") 
+dict.popitem() #removes the last inserted key-value pair
+
+
 null_dict={} #empty dict
 
 #nested dict
