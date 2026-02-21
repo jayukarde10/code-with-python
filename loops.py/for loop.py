@@ -17,4 +17,12 @@
 # for i in j:
 #     print(i) 
 
+n=16
+for i in range(0,11):
+    j=i*i
+    if(j==n):
+        print("n found",n)
+    else:
+        print(j)
+        
 
