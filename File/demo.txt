@@ -1,0 +1,1 @@
+after all get truncatenew append at pointer is at end
