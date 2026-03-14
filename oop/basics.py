@@ -24,7 +24,7 @@
 
 class student():
     # #defualt constructor
-    def __init__(self):
+    def __init__(self): ##self is noting but object
         pass 
   
     ##parameterized constructor
