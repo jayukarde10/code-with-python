@@ -15,3 +15,6 @@ print(l)
 
 l="".join([random.choice(charvalues) for i in range(8)])
 print(l)
+
+l="*".join([random.choice(charvalues) for i in range(8)])
+print(l)
