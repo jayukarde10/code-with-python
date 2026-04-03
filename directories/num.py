@@ -59,3 +59,57 @@ arr = np.arange(6)
 arr= arr.reshape(2,3)
 print(arr)
 
+#imp axis
+arr= np.arange(1,10)
+
+arr= arr.reshape(3,3)
+
+row_sum=arr.sum(axis=1)
+print(row_sum)
+
+column_sum=arr.sum(axis=0)
+print(column_sum)
+
+#transpose of matrix
+arrt=arr.T #or use arr.transpose()
+print(arrt)
+
+#imp
+arr=np.array([10,20,30,40,50])
+print(arr>20)
+print(arr[arr>20])
+
+print(arr[[0, 2]]) #Select multiple indexes at once
+                   #[10,30] #[[]]
+
+a = np.array([1,2])
+b = np.array([3,4])
+
+print(np.vstack((a,b)))
+print(np.hstack((a,b)))                 
+
+arr = np.array([[1,2],[3,4]])
+# arr=arr.reshape(1,1) get error
+arr=arr.flatten()
+print(arr)
+
+
+#  Gives index where condition is true
+arr = np.array([10, 20, 30, 40])
+print(np.where(arr > 20)) #(array([2, 3]),)
+
+#sorting
+arr = np.array([3,1,2])
+print(np.sort(arr))
+
+#Unique Values
+arr = np.array([1,2,2,3,3])
+print(np.unique(arr))
+
+# Replace all values > 20 with 0
+arr[arr>20] = 0
+print(arr)
+
+#easy replac
+arr[1]=100
+print(arr)
