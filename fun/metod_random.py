@@ -1,5 +1,5 @@
 import random
-print(random.randint(0,99))#random.randrange(start, stop, step)
+print(random.randint(0,99,5))#random.randrange(start, stop, step/len)
 print(random.choice([1,"jay",63]))
 print(random.random())#gives random float value between 0 and 1
 

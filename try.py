@@ -1,41 +1,17 @@
-import numpy as np
-import random
-arr = np.array([5, 10, 15, 20, 25, 30])
+import pandas as pd
 
-# Find mean of values greater than 15
-print(arr[arr>15].mean())
+data = {
+    "name": ["Jay", "Rahul", "Aman", "Riya"],
+    "marks": [90, 85, 88, 92]
+}
 
-arr = np.arange(1, 13).reshape(3,4)
+df = pd.DataFrame(data)
 
-# Output:
-# Row sums
-print(arr.sum(axis=1))
-# Column means
-print(arr.mean(axis=1))
-
-arr = np.array([10, 25, 30, 15, 40])
-
-# Replace all values > 20 with 0
-arr[arr>20] = 0
-print(arr)
-
-arr = np.arange(1,10).reshape(3,3)
-
-# Extract diagonal elements
-print(arr.diagonal())
-arr=[]
-for i in range(1,6):
-    arr.append(random.randint(1,51))
-arr=np.array(arr)
-print(np.sort(arr))
-
-arr = np.array([1,2,3])
-arr1=arr.copy()
-arr2=arr.copy()
-arr3=arr.copy()
-arr=np.array([arr1,arr2,arr3])
-print(arr)
-# Convert to:
-# [[1,2,3],
-#  [1,2,3],
-#  [1,2,3]]
+# 1. print only marks column
+print(df["marks"])
+# 2. print students with marks > 88
+print(df[df["marks"] > 88])
+# 3. print average marks
+print(df["marks"].mean())
+# 4. print second row
+print(df.iloc[1])
